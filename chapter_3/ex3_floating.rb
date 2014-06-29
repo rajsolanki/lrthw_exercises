@@ -2,27 +2,27 @@
 puts 'I will now count my chickens:'
 
 # Shows total of equation as number of hens
-puts 'Hens', 25.to_f + 30.to_f / 6.to_f
+puts 'Hens', 25.0 + 30.0 / 6.0
 # Shows total of equation as number of roosters
-puts 'Roosters', 100.to_f - 25.to_f * 3.to_f % 4.to_f
+puts 'Roosters', 100.0 - 25.0 * 3.0 % 4.0
 
 # prints the string
 puts 'Now I will count the eggs:'
 
 # prints total of equation for number of eggs
-puts 3.to_f + 2.to_f + 1.to_f - 5.to_f +
-       4.to_f % 2.to_f - 1.to_f / 4.to_f + 6.to_f
+puts 3.0 + 2.0 + 1.0 - 5.0 +
+       4.0 % 2.0 - 1.0 / 4.0 + 6.0
 
 # prints whether mathematical equation is true or false
 puts 'Is it true that 3 + 2 < 5 - 7?'
 
 # prints result of equation
-puts 3.to_f + 2.to_f < 5.to_f - 7.to_f
+puts 3.0 + 2.0 < 5.0 - 7.0
 
 # prints string, then result of equation on next line
-puts 'What is 3 + 2?', 3.to_f + 2.to_f
+puts 'What is 3 + 2?', 3.0 + 2.0
 # prints string, then result of equation on next line
-puts 'What is 5 - 7?', 5.to_f - 7.to_f
+puts 'What is 5 - 7?', 5.0 - 7.0
 
 # prints string
 puts "Oh, that's why it's false."

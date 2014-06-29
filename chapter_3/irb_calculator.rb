@@ -1,24 +1,13 @@
-# Rajs-MacBook-Air:~ raj$ irb
+# dogs apparently live 7 years for
+# every human year. My dog was born
+# February 17, 2012. How old is he
+# in human year equivalency?
 
-puts 3 / 4 / 5
-
-puts 3 / 4
-
-puts 3.to_f / 4.to_f
-
-puts 3.0 / 4.0 / 5.0
-
-puts 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
-
-puts 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10
-
-puts 1 * 2 * 4 * 5 * 6 * 7 * 8 * 9 * 10
-
-puts 1.0 / 2.0 / 3.0 / 4.0 / 5.0 / 6.0 /
-       7.0 / 8.0 / 9.0 / 10.0
-
-puts 3 / 4 / 5
-
-puts 3.to_f / 4.to_f / 5.to_f
-
-puts 2.0 / 5.0 * 10.0
+puts 'My dog, Kivah, was born 02 17, 2012'
+puts 'That was 48 days into the year'
+puts 'Today is ' + Time.now.strftime('%m %d, %Y')
+puts "Which is #{Time.now.yday} days into the year"
+puts "This means, Kivah is #{ (365.25 - 48) + 365.25 + Time.now.yday } days old"
+puts "That's #{((365.25 - 48) + 365.25 + Time.now.yday) * 7} days in dog age"
+puts "Which means he is the equivalent of about
+#{((((365.25 - 48) + 365.25 + Time.now.yday) * 7) / 365.25).to_i} human years old"

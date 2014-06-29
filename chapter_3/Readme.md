@@ -1,4 +1,4 @@
-In playing with math functions, I noticed that if I group a set of functions together,
+ In playing with math functions, I noticed that if I group a set of functions together,
 like (3 / 4 / 5) then place ".to_f" outside the parenthesis, it performs the functions
 first then applies the floating command to them, so I will not get an accurate answer that way.
 
