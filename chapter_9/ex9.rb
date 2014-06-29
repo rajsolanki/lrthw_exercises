@@ -7,8 +7,8 @@ months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
 # prints string with variable "days"
 # to print the string and the variable on the same line:
-# puts 'Here are the days: %s' % days
-puts 'Here are the days:', days
+# puts 'Here are the days: %s' % days or print <string>
+print 'Here are the days: ', days
 # prints string with variable "months"
 puts 'Here are the months:', months
 
