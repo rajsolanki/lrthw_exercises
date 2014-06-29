@@ -5,7 +5,8 @@ persian_cat = "I'm split\non a line."
 # defines variable "backslash_cat"
 backslash_cat = "I'm \\ a \\ cat."
 
-# defines variable "fat_cat" with a paragraph function
+# defines variable "fat_cat" with the << function that
+# allows you to type in multiple lines
 fat_cat = <<MY_HEREDOC
 I'll do a list:
 \t* Cat food
