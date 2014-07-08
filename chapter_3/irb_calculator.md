@@ -1,36 +1,3 @@
-# Rajs-MacBook-Air:~ raj$ irb
-
-2.1.2 :001 > ( 3 / 4 / 5).to_f
- => 0.0
-
-2.1.2 :002 > 3 / 4
- => 0
-
-2.1.2 :003 > 3.to_f / 4.to_f
- => 0.75
-
-2.1.2 :004 > 3.0 / 4.0 / 5.0
- => 0.15
-
-2.1.2 :005 > 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
- => 55
-
-2.1.2 :006 > 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10
- => -53
-
-2.1.2 :007 > 1 * 2 * 4 * 5 * 6 * 7 * 8 * 9 * 10
- => 1209600
-
-2.1.2 :008 > 1.0 / 2.0 / 3.0 / 4.0 / 5.0 / 6.0 / 7.0 / 8.0 / 9.0 / 10.0
- => 2.7557319223985894e-07
-
-2.1.2 :009 > (3 / 4 / 5)
- => 0
-
-***2.1.2 :010 > (3 / 4 / 5).to_f
- => 0.0***
-
-2.1.2 :011 > 2.0 / 5.0 * 10
- => 4.0
-
-2.1.2 :012 >
+...
+js-MacBook-Air:davinci_coders_t2_2014 raj$ irb 2.1.2 :001 > puts 'My dog, Kivah, was born 02 17, 2012' My dog, Kivah, was born 02 17, 2012 => nil 2.1.2 :002 > puts 'That was 48 days into the year' That was 48 days into the year => nil 2.1.2 :003 > puts 'Today is ' + Time.now.strftime( '%m %d, %Y') Today is 07 07, 2014 => nil 2.1.2 :004 > puts "Which is #{Time.now.yday} days into the year" Which is 188 days into the year => nil 2.1.2 :005 > puts "This means, Kivah is #{ (365.25 - 48) + 365.25 + Time.now.yday } days old" This means, Kivah is 870.5 days old => nil 2.1.2 :006 > puts "That's #{((365.25 - 48) + 365.25 + Time.now.yday) * 7} days in dog age" That's 6093.5 days in dog age => nil 2.1.2 :007 > puts "Which means he is the equivalent of about #{((((365.25 - 48) + 365.25 + Time.now.yday) *7) / 365.25).to_i} human years old" Which means he is the equivalent of about 16 human years old
+...
