@@ -1,3 +1,4 @@
+...
 Rajs-MacBook-Air:davinci_coders_t2_2014 raj$ irb
 2.1.2 :001 > puts 'My dog, Kivah, was born 02 17, 2012'
 My dog, Kivah, was born 02 17, 2012
@@ -19,5 +20,4 @@ That's 6093.5 days in dog age
  => nil
 2.1.2 :007 > puts "Which means he is the equivalent of about #{((((365.25 - 48) + 365.25 + Time.now.yday) *7) / 365.25).to_i} human years old"
 Which means he is the equivalent of about 16 human years old
- => nil
-2.1.2 :008 >
+...
