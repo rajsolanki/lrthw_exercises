@@ -7,3 +7,6 @@ It appears that I haven't found a shorter way yet.
 
 One thing I noticed in Rubocop that I didn't know, was that it does not like a long line of code
 and when I broke up a function into two lines, it still worked and Rubocop liked it.
+
+Some links for resources I used on floting point numbers:
+* <http://rubylearning.com/satishtalim/numbers_in_ruby.html>* <http://www.ruby-doc.org/core-2.1.2/Float.html>	
